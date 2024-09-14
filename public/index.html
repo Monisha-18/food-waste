@@ -1,43 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Convent Foundation
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<body>
+    <div class="fixed-top">
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="#home">Manage Waste Foundation</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#donation">Donations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mission-id">Missions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="cont-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Contact No : <a href="tel: +911234****89">+91 1234****89</a></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="social">
+                            <a href="#"><img src="img/icons/facebook.png" alt="facebook"></a>
+                            <a href="#"><img src="img/icons/instagram.png" alt="inatagram"></a>
+                            <a href="#"><img src="img/icons/youtube.png" alt="youtube"></a>
+                            <a href="#"><img src="img/icons/linkedin.png" alt="linkedin"></a>
+                            <a href="#"><img src="img/icons/gmail.png" alt="gnail"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <section class="home-sec" id="home">
+        <div class="container">
+            <div class="home-content">
+                <div class="row">
+                    <div class="col-lg-6 align-item-center">
+                        <div class="home-info">
+                            <h1>Alone we can do little, together we can do so much</h1>
+                            <h2>We <span>Manage Waste Foundation</span> manage wastage for needy peoples</h2>
+                            <p>Every small contribution can make a big difference. Together, we can transform lives and create a sustainable future.</p>
+                            <div class="buttons">
+                                <a href="#contact" class="btn1">Donate now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-first order-lg-last">
+                        <div class="img-sec">
+                            <img src="img/img-1.png" alt="home-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="don-sec" id="donation">
+        <div class="container">
+            <div class="heading">
+                <h2>We Manage Wastage or Donation like..</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="don-box">
+                        <img src="img/don/clothing.png" alt="img">
+                        <h3>Clothes</h3>
+                        <p>Your unwanted clothes can be someone else's treasure. Donate today and make a difference!</p>
+                        <a href="#contact" class="btn1">Donate Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="don-box">
+                        <img src="img/don/sneakers.png" alt="img">
+                        <h3>Footware</h3>
+                        <p>Your old shoes can give someone a new start. Donate today and make a difference in their lives.</p>
+                        <a href="#contact" class="btn1">Donate Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="don-box">
+                        <img src="img/don/salary.png" alt="img">
+                        <h3>Fund</h3>
+                        <p>Every contribution, no matter how small, can make a big impact. Join us in making a difference.</p>
+                        <a href="#contact" class="btn1">Donate Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="don-box">
+                        <img src="img/don/gadgets.png" alt="img">
+                        <h3>Gadgets</h3>
+                        <p>Your old gadgets can be someone else's new beginning. Donate today and help bridge the digital divide.</p>
+                        <a href="#contact" class="btn1">Donate Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="don-box">
+                        <img src="img/don/book.png" alt="img">
+                        <h3>Stationary</h3>
+                        <p>Every pen, pencil, and notebook can ignite a mind. Donate your stationary and help shape the future.</p>
+                        <a href="#contact" class="btn1">Donate Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="don-box">
+                        <img src="img/don/shopping-bag.png" alt="img">
+                        <h3>Food</h3>
+                        <p>Your generosity can nourish communities and create a world without hunger. Donate food today.</p>
+                        <a href="#contact" class="btn1">Donate Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission" id="mission-id">
+        <div class="container">
+            <div class="heading">
+                <h2>Our Missions</h2>
+                <p>We have delivered <span>Wastage</span> or <span>Donations</span> to needy Peoples</p>
+            </div>
+            <div class="gallery-sec">
+                <div class="container">
+                    <div class="image-container">
+                        <div class="image"><img src="img/miss/1.jpg" alt="img"></div>
+                        <div class="image"><img src="img/miss/2.jpg" alt="img"></div>
+                        <div class="image"><img src="img/miss/3.jpg" alt="img"></div>
+                        <div class="image"><img src="img/miss/4.jpg" alt="img"></div>
+                        <div class="image"><img src="img/miss/5.jpg" alt="img"></div>
+                        <div class="image"><img src="img/miss/6.jpg" alt="img"></div>
+                    </div>
+                </div>
+                <div class="pop-image">
+                    <span>&times;</span>
+                    <img src="img/gallery/1.jpg" alt="gallery-img">
+                </div>
+                </di v>
+            </div>
+    </section>
+
+    <section class="about-sec" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 about-img">
+                    <img src="img/img-2.jpeg" alt="about">
+                </div>
+                <div class="col-lg-8 order-first order-lg-last">
+                    <div class="heading">
+                        <h2>What We Do & Why We Do</h2>
+                    </div>
+                    <p>At Manage Waste Foundation, we are dedicated to providing essential resources to those in need, empowering communities to thrive, and creating a brighter future for all. We believe that every individual deserves a chance to succeed, and that compassion and kindness can change the world. </p>
+                    <p>Together, we can make a difference by sharing our resources, volunteering our time, and supporting our communities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="heading">
+                    <h2>Connect With Us</h2>
+                    <p>Fill this form, our team will collect your <span>Donation</span> or <span>Wastage</span> from your place.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 mt-5">
+                        <form class="contact-form">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Your Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Mobile No.">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <select name="donation" id="donation">
+                                                        <option value="">Choose Donation or Wastage</option>
+                                                        <option value="food">Food</option>
+                                                        <option value="clothes">Clothes</option>
+                                                        <option value="footware">Footware</option>
+                                                        <option value="books">Books</option>
+                                                        <option value="fund">Fund</option>
+                                                        <option value="gadget">Ele. Gadgets</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Address">
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea class="form-control" name="text" id="" cols="90" rows="1" placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 mt-3">
+                                            <button type="submit" class="btn1 mt-5">Submit Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <div class="col-one">
+                        <h4>Manage Waste foundation</h4>
+                        <p>Address :  1, Lalbagh road, Bangalore 560027 </p>
+                        <p>Contact No : <a href="tel: +911234****89">+91 1234****89</a></p>
+                        <p>Email : <a href="mailto:foundation@donate.com">foundation@donate.com</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="col-two">
+                        <h4>Important Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#donation">Donations</a></li>
+                            <li><a href="#mission-id">Missions</a></li>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#contact">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="col-one">
+                        <h4>Social Media</h4>
+                        <div class="social">
+                            <a href="#"><img src="img/icons/facebook.png" alt="facebook"></a>
+                            <a href="#"><img src="img/icons/instagram.png" alt="inatagram"></a>
+                            <a href="#"><img src="img/icons/youtube.png" alt="youtube"></a>
+                            <a href="#"><img src="img/icons/linkedin.png" alt="linkedin"></a>
+                            <a href="#"><img src="img/icons/gmail.png" alt="gnail"></a>
+                        </div>
+                        <p>Copyright &copy; 2024 | All Right Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
 </html>
